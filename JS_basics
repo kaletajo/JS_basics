@@ -1,0 +1,86 @@
+<html>
+<head>
+<script language="JavaScript">
+function pushbutton() {
+alert ("Hello!");
+}
+</script>
+</head>
+<body>
+<form>
+<input type="button" name="Button1" value="Nacisnij mnie" onclick="pushbutton()">
+</form>
+</body>
+</html>
+
+<html>
+<head>
+<script language="JavaScript">
+<!--  hide script from old browsers
+  function getname(str) {
+    alert("Hi, "+ str+"!");
+  }
+// end hiding contents -->
+</script>
+</head>
+<body>
+Wpisz swoje imie:
+<form>
+  <input type="text" name="name" onBlur="getname(this.value)" value="">
+</form>
+</body>
+</html>
+
+
+
+<html>
+<body>
+This is a simple HTML- page.
+<br>
+Last changes:
+  <script language="LiveScript">
+  <!--  hide script from old browsers
+    document.write(document.lastModified)
+  // end hiding contents -->
+  </script>
+</body>
+</html>
+
+
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Windows-1250">
+<SCRIPT language="JavaScript">
+wiek=(prompt("Wpisz w ponizsze pole liczbe swoich lat.",""));
+napis="";
+if (wiek<150) { napis="Dobrze wygladasz" };
+if (wiek<80) { napis="Jestes w pelni wieku" };
+if (wiek<50) { napis="Czy nie jestes jeszcze za mlody na takie rzeczy ?" };
+f (wiek<20) { napis="Masz tyle samo lat co ja !" };
+if (wiek<10) { napis="Musisz jeszcze podrosnac !" };
+if (napis=="") {napis="Nie oszukasz mie !"};
+document.write(napis);
+</SCRIPT>
+</HEAD>
+<BODY bgcolor="#6FB20F">
+</BODY>
+</HTML>
+<br>
+<br>
+<br>
+<html>
+<body>
+<script type="text/javascript">
+i=0;
+while (i<=5) {
+	document.write("liczba równa sie " + i);
+	document.write("<br />");
+	i++;
+}
+</script>
+<p>Wyjasnienie:</p>
+<p><b>i</b> jest równe 0.</p>
+<p>Dopóki <b>i</b> jest mniejsze lub równe 5, petla bedzie wykonywana.</p>
+<p><b>i</b> licznik petli wzrasta o 1 za kazdym obiegiem.</p>
+</body>
+</html>
